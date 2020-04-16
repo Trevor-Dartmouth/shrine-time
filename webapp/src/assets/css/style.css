@@ -267,6 +267,32 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
 }
 
+@media (min-width: 768px) {
+  .modal-xl {
+    width: 70%;
+    height: 70%;
+    max-height: 70%;
+    max-width: 70%;
+
+  }
+
+  .my-modal-header {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .modal-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 97%;
+    padding-top: 2% !important;
+  }
+  .close span{
+    justify-self: flex-end;
+    padding-right: 3% !important;
+  }
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
