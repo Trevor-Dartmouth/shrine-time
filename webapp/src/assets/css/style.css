@@ -223,6 +223,50 @@ h1, h2, h3, h4, h5, h6 {
   border: 2px solid #2dc997;
 }
 
+/* Get Started Section
+--------------------------------*/
+#shrine {
+  background: #fff;
+  padding: 80px 0;
+}
+
+#shrine .shrine-img {
+  overflow: hidden;
+}
+
+#shrine .shrine-img img {
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  #shrine .shrine-img {
+    height: auto;
+  }
+  #shrine .shrine-img img {
+    margin-left: 0;
+    padding-bottom: 30px;
+  }
+}
+
+#shrine .shrine-content {
+  background: #fff;
+}
+
+#shrine .shrine-title {
+  color: #333;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+#shrine .shrine-text {
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+
+#shrine .shrine-text:last-child {
+  margin-bottom: 0;
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -491,6 +535,27 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #999;
 }
 
+.shrine-title {
+  font-size: 32px;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+}
+
+.shrine-title-divider {
+  width: 50px;
+  height: 3px;
+  background: #03C4EB;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.shrine-description {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
 /* About Us Section
 --------------------------------*/
 #about {
@@ -500,7 +565,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-container .background {
   min-height: 300px;
-  background: url(../img/about-img.jpg) center top no-repeat;
+  background: url(../img/snow-shrine-fuji.jpg) center top no-repeat;
   margin-bottom: 10px;
 }
 
@@ -716,101 +781,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 2px solid #2dc997;
 }
 
-/* Portfolio Section
---------------------------------*/
-#portfolio {
-  background: #f7f7f7;
-  padding: 80px 0;
-}
-
-#portfolio #portfolio-wrapper {
-  padding-right: 15px;
-}
-
-#portfolio #portfolio-flters {
-  padding: 0;
-  margin: 0 0 45px 0;
-  list-style: none;
-  text-align: center;
-}
-
-#portfolio #portfolio-flters li {
-  cursor: pointer;
-  margin: 0 10px;
-  display: inline-block;
-  padding: 10px 22px;
-  font-size: 12px;
-  line-height: 20px;
-  color: #666666;
-  border-radius: 4px;
-  text-transform: uppercase;
-  background: #fff;
-  margin-bottom: 5px;
-  transition: all 0.3s ease-in-out;
-}
-
-#portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
-  background: #2dc997;
-  color: #fff;
-}
-
-#portfolio .portfolio-item {
-  position: relative;
-  height: 200px;
-  overflow: hidden !important;
-  margin-bottom: 15px;
-  transition: all 350ms ease;
-  transform: scale(1);
-}
-
-#portfolio .portfolio-item a {
-  display: block;
-  margin-right: 15px;
-}
-
-#portfolio .portfolio-item img {
-  position: relative;
-  top: 0;
-  transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
-}
-
-#portfolio .portfolio-item .details {
-  height: 50px;
-  background: #2dc997;
-  position: absolute;
-  width: 100%;
-  height: 50px;
-  bottom: -50px;
-  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
-}
-
-#portfolio .portfolio-item .details h4 {
-  font-size: 14px;
-  font-weight: 700;
-  color: #fff;
-  padding: 8px 0 2px 8px;
-  margin: 0;
-}
-
-#portfolio .portfolio-item .details span {
-  display: block;
-  color: #fff;
-  font-size: 13px;
-  padding-left: 8px;
-}
-
-#portfolio .portfolio-item:hover .details {
-  bottom: 0;
-}
-
-#portfolio .portfolio-item:hover img {
-  top: -30px;
-}
 
 /* Team Section
 --------------------------------*/
 #team {
-  background: #fff;
+  background: #f7f7f7;
+  /* background: #fff; */
   padding: 80px 0 60px 0;
 }
 
@@ -861,7 +837,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Contact Section
 --------------------------------*/
 #contact {
-  background: #f7f7f7;
+  /* background: #f7f7f7; */
+  background: #fff;
   padding: 80px 0 40px 0;
 }
 
