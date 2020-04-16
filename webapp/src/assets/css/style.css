@@ -270,15 +270,16 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 768px) {
   .modal-xl {
     width: 70%;
-    height: 70%;
-    max-height: 70%;
     max-width: 70%;
+    height: 60%;
+    max-height: 60%;
 
   }
 
   .my-modal-header {
     display: flex;
     justify-content: flex-start;
+    background-color: #d9534f 
   }
   .modal-title {
     display: flex;
@@ -287,6 +288,15 @@ h1, h2, h3, h4, h5, h6 {
     min-width: 97%;
     padding-top: 2% !important;
   }
+  .modal-body h4 {
+    padding-top: 3%;
+  }
+  .modal-title h2 {
+    color: white;
+    font-size: 3em;
+    font-family: "Open Sans", sans-serif;
+  }
+
   .close span{
     justify-self: flex-end;
     padding-right: 3% !important;
@@ -560,7 +570,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-bottom: 40px;
   color: #999;
 }
+.shrine-section-header {
+  padding-top: 3%;
 
+}
 .shrine-title {
   font-size: 32px;
   color: #111;
@@ -682,83 +695,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
 }
 
-/* Services Section
---------------------------------*/
-#services {
-  background: #fff;
-  background-size: cover;
-  padding: 80px 0 60px 0;
-}
-
-#services .box {
-  padding: 50px 20px;
-  margin-bottom: 50px;
-  text-align: center;
-  border: 1px solid #e6e6e6;
-  height: 200px;
-  position: relative;
-  background: #fafafa;
-}
-
-#services .icon {
-  position: absolute;
-  top: -36px;
-  left: calc(50% - 36px);
-  transition: 0.2s;
-  border-radius: 50%;
-  border: 6px solid #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  width: 72px;
-  height: 72px;
-  background: #2dc997;
-}
-
-#services .icon a {
-  display: inline-block;
-}
-
-#services .icon i {
-  color: #fff;
-  font-size: 24px;
-}
-
-#services .box:hover .icon {
-  background: #fff;
-  border: 2px solid #2dc997;
-}
-
-#services .box:hover .icon i {
-  color: #2dc997;
-}
-
-#services .box:hover .icon a {
-  color: #2dc997;
-}
-
-#services .title {
-  font-weight: 700;
-  font-size: 18px;
-  margin-bottom: 15px;
-  text-transform: uppercase;
-}
-
-#services .title a {
-  color: #111;
-}
-
-#services .description {
-  font-size: 14px;
-  line-height: 24px;
+.shrine-container {
+  padding-bottom: 5%;
 }
 
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/call-to-action-bg.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/cta-bg.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
 }

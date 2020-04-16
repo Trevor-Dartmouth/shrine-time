@@ -14,7 +14,7 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700|Pacifico&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -49,8 +49,8 @@
         <ul class="nav-menu">
           <li class="menu-active"><a href="#hero">Home</a></li>
           <li><a href="#about">Overview</a></li>
-          <li><a href="#services">Tomb</a></li>
-          <li><a href="#portfolio">Warrior</a></li>
+          <li><a href="#tomb">Tomb</a></li>
+          <li><a href="#warrior">Warrior</a></li>
           <li><a href="#team">Kami</a></li>
           <!-- <li class="menu-has-children"><a href="">Drop Down</a>
             <ul>
@@ -106,14 +106,14 @@
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
               <div class="icon"><i class="fa fa-snowflake-o"></i></div>
-              <h4 class="title"><a href="">Ohtoshimioya Jinja</a></h4>
+              <h4 class="title"><a href="" data-toggle="modal" data-target="#modalQuickView1">Ohtoshimioya Jinja</a></h4>
               <p class="description">Over 1,700 years old, Ohtoshimioya Jinja is said to have been enshrined during the era of Emperor Ojin and is relatively simple in design compared to the other main shrines. The primary kami of Ohtoshimioya Jinja is Ukanotimama, a goddess of rice and prosperity (5). 
                 </p>
             </div>
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
               <div class="icon"><i class="fa fa-pagelines"></i></div>
-              <h4 class="title"><a href="">Sengen Jinja</a></h4>
+              <h4 class="title"><a href="" data-toggle="modal" data-target="#modalQuickView2">Sengen Jinja</a></h4>
               <p class="description">The Sengen Jinja is just as commonly referred to as the Asama Jinja, or “volcano shrine” for its role in veneration of Konohanasakuya-hime, the female kami of Mt. Fuji (2). The newest of the three main shrines, Sengen Jinja was built in 901 by Emperor Daigo (5). 
                 </p>
             </div>
@@ -129,12 +129,12 @@
         <!-- Modal: modalQuickView -->
     <div class="modal fade" id="modalQuickView" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
-    <div class="modal-dialog modal-xl modal-danger" role="document">
+    <div class="modal-dialog modal-xl modal-notify modal-danger" role="document">
       <div class="modal-content">
         <!--Header-->
         <div class="modal-header my-modal-header">
           <div class="modal-title">
-            <h2 class="h2-responsive product-name text-center">
+            <h2 class="h2-responsive lead product-name">
               <strong>Kambe Jinja </strong>
             </h2>
           </div>
@@ -147,7 +147,7 @@
             <div class="col-lg-5">
               <div class="carousel-item active">
                 <img class="d-block w-100"
-                  src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/img%20(23).jpg"
+                  src="./assets/img/Kambe.jpg"
                   alt="First slide">
               </div>
             </div>
@@ -155,7 +155,7 @@
 
               <h4 class="h4-responsive text-center">
                 <span class="green-text">
-                  <strong>Location Here</strong>
+                  <strong>Subtitle Here</strong>
                 </span>
               </h4>
                   <!-- Card header -->
@@ -187,6 +187,127 @@
     </div>
     <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalQuickView">Launch
         modal</button> -->
+    <!-- Modal: modalQuickView -->
+    <div class="modal fade" id="modalQuickView1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-notify modal-danger" role="document">
+      <div class="modal-content">
+        <!--Header-->
+        <div class="modal-header my-modal-header">
+          <div class="modal-title">
+            <h2 class="h2-responsive lead product-name">
+              <strong>Ohtoshimioya Jinja </strong>
+            </h2>
+          </div>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true" class="white-text">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-lg-5">
+              <div class="carousel-item active">
+                <img class="d-block w-100"
+                  src="./assets/img/Oshe.png"
+                  alt="First slide">
+              </div>
+            </div>
+            <div class="col-lg-7">
+
+              <h4 class="h4-responsive text-center">
+                <span class="green-text">
+                  <strong>Subtitle Here</strong>
+                </span>
+              </h4>
+                  <!-- Card header -->
+                  <!-- <div class="card-header" role="tab" id="headingOne1">
+                      <h5 class="mb-0">
+                        Collapsible Group Item #1
+                      </h5>
+                    
+                  </div> -->
+
+                  <!-- Card body -->
+                  <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1"
+                    data-parent="#accordionEx">
+                    <div class="card-body">
+                        <p>Also called Otoshi Gosho Jinja or Otoshi Gozo Jinja, Ohtoshimioya Jinja is said to be over 1,700 years old, dating back to the era of Emperor Ojin’s reign (2).</p>
+                        <p>Relatively simple in design, Ohtoshimioya Jinja bears the characteristic coloring of a Shinto shrine with wooden carvings lacquered red and woven reed fabric but lacks the gold luster of the other two main shrines in the complex. The primary kami of the Ohtoshimioya Jinja is Ukanotimama. representing rice and prosperity of various industries, including fishing, agriculture, and industry.</p>
+                        <p>Originally the guardian goddess of the ancient market city Abe in what today is the Shizuoka Province, Ukanotimama is more modernly presented today as a minor and genderless religious figure (5).</p>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+              <!-- /.Add to Cart -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalQuickView">Launch
+        modal</button> -->
+
+      <!-- Modal: modalQuickView -->
+  <div class="modal fade" id="modalQuickView2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-notify modal-danger" role="document">
+    <div class="modal-content">
+      <!--Header-->
+      <div class="modal-header my-modal-header">
+        <div class="modal-title">
+          <h2 class="h2-responsive lead product-name">
+            <strong>Sengen Jinja </strong>
+          </h2>
+        </div>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true" class="white-text">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="carousel-item active">
+              <img class="d-block w-100"
+                src="./assets/img/sengen.jpg"
+                alt="First slide">
+            </div>
+          </div>
+          <div class="col-lg-7">
+
+            <h4 class="h4-responsive text-center">
+              <span class="green-text">
+                <strong>Subtitle Here</strong>
+              </span>
+            </h4>
+                <!-- Card header -->
+                <!-- <div class="card-header" role="tab" id="headingOne1">
+                    <h5 class="mb-0">
+                      Collapsible Group Item #1
+                    </h5>
+                  
+                </div> -->
+
+                <!-- Card body -->
+                <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1"
+                  data-parent="#accordionEx">
+                  <div class="card-body">
+                      <p>Sengen Jinja, built in 901 by Emperor Daigo, was built in veneration for the kami Konohanasakuya-hime of Mt. Fuji. She is named “Princess of the Blossom Trees” for the cherry blossoms that grow at the base of the revered volcano (2).</p>
+                      <p>One of the many Asama shrines in Japan, or Shinto shrines that give reverence to the power and beauty of their respective volcanoes, Sengen Jinja serves as a place of worship to the lava within Mt. Fuji in the first week of April before celebrating the annual Hatsukakai Festival, when patrons drink strong rice liquor in an overnight celebration.</p>
+                      <p>Positioned adjacent to Kambe Jinja, visitors are able to reach Sengen Junja through a wide set of steps built up towards the shrine, leading to a red and gold lacquered entrance in Momoyama-style architecture (5).</p>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <!-- /.Add to Cart -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
 
     <!-- ======= Facts Section ======= -->
     <section id="facts">
@@ -223,10 +344,10 @@
     </section><!-- End Facts Section -->
 
     <!-- ======= About Section ======= -->
-    <section id="shrine">
+    <section id="tomb">
       <div class="container wow fadeInUp">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-12 shrine-section-header">
             <h3 class="shrine-title">A Hidden Tomb</h3>
             <div class="shrine-title-divider"></div>
             <p class="shrine-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
@@ -273,10 +394,10 @@
     </section><!-- End Call To Action Section -->
 
     <!-- ======= About Section ======= -->
-    <section id="shrine">
+    <section id="warrior">
       <div class="container wow fadeInUp">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-12 shrine-section-header">
             <h3 class="shrine-title">Built for a Warrior </h3>
             <div class="shrine-title-divider"></div>
             <p class="shrine-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
@@ -342,6 +463,7 @@
       </div>
     </section><!-- End Team Section -->
 
+    
     <!-- ======= Contact Section ======= -->
     <section id="contact">
       <div class="container wow fadeInUp">
@@ -351,7 +473,8 @@
         </div>
       </div>
       <!-- Uncomment below if you wan to use dynamic maps -->
-      <iframe src="https://maps.google.com/maps?q=456%20Shibokusa%2C%20Oshino%2C%20Minamitsuru%20District%2C%20Yamanashi%20401-0511%2C%20Japan&t=&z=9&ie=UTF8&iwloc=&output=embed" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <div style="width: 100%"><iframe width="100%" height="600" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=102-1%20Miyagasakicho%2C%20Aoi%20Ward%2C%20Shizuoka%2C%20420-0868%2C%20Japan+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=9&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/draw-radius-circle-map/">Google Maps radius calculator</a></iframe></div><br />
+      <!-- <iframe src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=102-1%20Miyagasakicho%2C%20Aoi%20Ward%2C%20Shizuoka%2C%20420-0868%2C%20Japan+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=9&amp;iwloc=B&amp;output=embed" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe> -->
     </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
@@ -375,7 +498,7 @@
         Licensing information: https://bootstrapmade.com/license/
         Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Regna
       -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
       </div>
     </div>
 
