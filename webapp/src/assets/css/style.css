@@ -301,7 +301,7 @@ h1, h2, h3, h4, h5, h6 {
   .my-modal-header {
     display: flex;
     justify-content: flex-start;
-    background-color: #d9534f 
+    background: url(../img/red.jpg) top center;
   }
   .modal-title {
     display: flex;
@@ -314,10 +314,19 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 3%;
   }
 
+  .modal-card-body {
+    font-size: 1.2em;
+  }
+
   .modal-title h2 {
     color: white;
     font-size: 3em;
+    text-shadow: 1px 1px 2px black; 
     font-family: "Open Sans", sans-serif;
+  }
+
+  .modal-background {
+    background: url(../img/egg_shell.png) top center;
   }
 
   .close span{
@@ -686,6 +695,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 5px;
   font-size: 18px;
   text-transform: uppercase;
+  text-decoration: underline;
 }
 
 #about .about-container .icon-box .title a {
