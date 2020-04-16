@@ -313,6 +313,7 @@ h1, h2, h3, h4, h5, h6 {
   .modal-body h4 {
     padding-top: 3%;
   }
+
   .modal-title h2 {
     color: white;
     font-size: 3em;
@@ -976,6 +977,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about > div:nth-child(1) {
   margin-top: -1%;
   margin-bottom: -3%;
+}
+
+.background {
+  padding-left: 8% !important;
 }
 
 .map-iframe {
