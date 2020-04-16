@@ -93,19 +93,42 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
 }
 
+.header-flex {
+  display: flex;
+  min-width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-flex nav {
+  margin-right: 5% !important;
+}
+
 #header #logo {
   float: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 26% !important;
+  min-width: 26% !important;
+  margin-left: 5%;
 }
 
 #header #logo h1 {
   font-size: 36px;
+  color: #fff;
   margin: 0;
   padding: 6px 0;
-  line-height: 1;
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  letter-spacing: 3px;
-  text-transform: uppercase;
+  /* line-height: 1; */
+  font-family: "Pacifico", sans-serif;
+  /* font-family: "Pacifico", cursive; */
+  /* font-weight: 700;
+  letter-spacing: 3px; */
+}
+
+.bootstrap-sucks {
+  visibility: hidden;
 }
 
 #header #logo h1 a, #header #logo h1 a:hover {
