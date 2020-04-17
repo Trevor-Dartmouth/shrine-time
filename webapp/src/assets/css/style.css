@@ -303,12 +303,18 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: flex-start;
     background: url(../img/red.jpg) top center;
   }
+  .my-footer-header {
+    background: url(../img/brown.jpg) top center;
+    padding-right: 3%;
+  }
+
   .modal-title {
     display: flex;
     justify-content: center;
     align-items: center;
     min-width: 97%;
     padding-top: 2% !important;
+    padding-left: 9%;
   }
   .modal-body h4 {
     padding-top: 3%;
@@ -316,6 +322,19 @@ h1, h2, h3, h4, h5, h6 {
 
   .modal-card-body {
     font-size: 1.2em;
+  }
+
+  h3.modal-title {
+    color: white;
+    font-size: 3em;
+    text-shadow: 1px 1px 2px black; 
+    font-family: "Open Sans", sans-serif;
+    padding-bottom: 2%;
+    padding-left: 8%;
+  }
+  .x-button {
+    color: white;
+    margin-right: 5% !important;
   }
 
   .modal-title h2 {
